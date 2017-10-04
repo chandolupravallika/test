@@ -1,20 +1,7 @@
-//
-// Phone Number
-// Finish the rest of 'phoneNumber()' function to satisfy the test
-// file located @ /test/main_test.spec.js
-//
-// To pass, your function should:
-// remove parenthesis, spaces, and hyphens as in "(321) 321-4321"
-// remove dots as in "321.321.4321"
+var colors=require('colors');
 
-const phoneNumber = (pNum) => {
+var phoneNumber=function(number){
+console.log(number);
 
-}
-
-module.exports = phoneNumber
-// Note: It's not neccessary to have all code into the 'phoneNumber'
-// function. Feel free to make as many functions as you see
-// fit. Just be sure to leave phoneNumber as an exported
-// method as you found it
-
-string = string.replace(/[&\/\\#,+()$~%.'":*?<>{}]/g,'_');
+};
+module.exports=phoneNumber;
